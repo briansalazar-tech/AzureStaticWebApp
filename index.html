@@ -9,49 +9,64 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
-    <title>Dallas Evans | Engineering Professional</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./css/styles.css" rel="stylesheet" />
+    <title>Dallas Salazar | Engineering Professional</title>
   </head>
   <body>
     <!-- Header -->
-    <div class="container">
-      <header
-        class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
-      >
-        <a
-          href="/"
-          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+    <section id="site-header">
+      <div class="container">
+        <header
+          class="d-flex flex-wrap justify-content-center py-3 mb-1"
         >
-          <span class="fs-4">Dallas Evans | Engineering Professional</span>
-        </a>
-        <ul class="nav nav-pills">
-          <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Projects & Achievements</a>
-          </li>
-          <li class="nav-item"><a href="#" class="nav-link">Resume</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Connect</a></li>
-        </ul>
-      </header>
-      <!-- Content -->
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-6">
-          <h1>Dallas Evans</h1>
-          <h2>Subheader Text</h2>
-          <ul>
-            <li>Trait 1</li>
-            <li>Trait 2</li>
-            <li>Trait 3</li>
+          <a
+            href="/"
+            class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+          >
+            <span class="mb-0 h1" id="navbar-h1-color">Dallas Salazar</span>
+          </a>
+          <ul class="nav nav-underline">
+            <li class="nav-item"><a href="#" class="nav-link nav-link-color">About</a></li>
+            <li class="nav-item">
+              <a href="#" class="nav-link nav-link-color">Projects & Achievements</a>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link nav-link-color">Resume</a></li>
+            <li class="nav-item"><a href="#" class="nav-link nav-link-color">Connect</a></li>
           </ul>
-          <button type="button" class="btn btn-primary">Resume</button>
-          <button type="button" class="btn btn-outline-primary">Projects & Achievements</button>
+        </header>
+      </div>
+    </section>
+    <!-- Content -->
+     <section id="site-content">
+
+     
+    <div class="container py-5">
+      <div class="row py-4">
+        <div class="col-7">
+          <h1>Dallas Salazar</h1>
+          <h2>Engineering Professional</h2>
+          <ul id="home-list">
+            <li id="home-list-item">Trait 1</li>
+            <li id="home-list-item">Trait 2</li>
+            <li id="home-list-item">Trait 3</li>
+          </ul>
+          <button type="button" class="btn btn-dark">Resume</button>
+          <button type="button" class="btn btn-outline-dark">
+            Projects & Achievements
+          </button>
         </div>
-        <div class="col-6 py-3">
+        <div class="col-5 py-3">
           <img id="home-headshot" src="./images/DallasPortrait.jpg" />
         </div>
       </div>
-      <div class="row">
+      <div class="row py-4">
+        <hr />
         <p>
           * Professional Summary* --- Lorem ipsum dolor sit amet, consectetur
           adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -63,44 +78,35 @@
         </p>
       </div>
     </div>
+    </section>
     <!-- Footer -->
-    <div class="container">
-      <footer
-        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
-      >
-        <p class="col-md-4 mb-0 text-body-secondary">
-          © <span id="footer-year">YEAR</span> Dallas Evans
-        </p>
-        <a
-          href="/"
-          class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
-          aria-label="Bootstrap"
-        >
-          <svg class="bi me-2" width="40" height="32" aria-hidden="true">
-            <use xlink:href="#bootstrap"></use>
-          </svg>
-        </a>
-        <ul class="nav col-md-4 justify-content-end">
-          <li class="nav-item">
-            <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link px-2 text-body-secondary">About</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link px-2 text-body-secondary"
-              >Projects & Achievements</a
-            >
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link px-2 text-body-secondary">Resume</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link px-2 text-body-secondary">Connect</a>
-          </li>
-        </ul>
-      </footer>
-    </div>
+    <section>
+      <div class="container">
+        <footer class="py-3 my-4 fixed-bottom" id="site-footer">
+          <ul class="nav justify-content-center pb-2 mb-3">
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-body-secondary">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-body-secondary"
+                >Projects & Achievements</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-body-secondary">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-body-secondary">Connect</a>
+            </li>
+          </ul>
+          <hr id="footer-hr">
+          <p class="text-center text-body-secondary">© 2025 Dallas Salazar</p>
+        </footer>
+      </div>
+    </section>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"

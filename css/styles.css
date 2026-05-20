@@ -1,0 +1,65 @@
+body {
+    background-color: #F5EEDC
+}
+
+h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 6rem;
+  color: #183B4E
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+}
+
+#home-headshot {
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+}
+
+#home-list {
+    list-style-image: url("../images/caret-right.svg");
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+
+#home-list-item {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 30px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#site-header {
+    background-color: #27548A;
+    border-bottom: #DDA853 solid 2px
+}
+
+#navbar-h1-color {
+    color: #DDA853
+}
+
+.nav-link-color {
+    color: white;
+    text-decoration: none;
+}
+#site-footer {
+    border-top:  #27548A solid 2px;
+}
+
+#footer-hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
