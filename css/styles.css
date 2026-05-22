@@ -55,11 +55,41 @@ li {
     text-decoration: none;
 }
 #site-footer {
-    border-top:  #27548A solid 2px;
+    border-top: #27548A solid 2px;
 }
 
 #footer-hr {
     border: 0;
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+#about-portrait {
+    background-color: white;
+    
+}
+
+#quickfact-portrait {
+    border-top: #27548A solid 4px;
+    border-bottom: #DDA853 solid 4px
+}
+
+#quickfact-text {
+    padding: 1rem;
+}
+#quickfact-heading {
+    text-decoration: underline;
+    color: #183B4E;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.quickfact-bold {
+    font-weight: bold;
+}
+
+.quickfact-ital {
+    font-style: italic;
+    color: darkgray
 }
