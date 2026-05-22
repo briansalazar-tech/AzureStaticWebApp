@@ -1,5 +1,6 @@
 body {
-    background-color: #F5EEDC
+    background-color: #F5EEDC;
+    background-image: url("../images/pinstripe-light.png")
 }
 
 h1 {
@@ -39,6 +40,17 @@ li {
     font-family: "Ubuntu", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+.page-header {
+    border-bottom: solid #27548A 2px;
+    background-color: #fffcf5;
+    background-image: url("../images/project-paper.png")
+}
+
+.subheading-text {
+    color: #DDA853;
+    text-decoration: underline;
 }
 
 #site-header {
